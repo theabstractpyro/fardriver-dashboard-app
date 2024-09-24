@@ -1,0 +1,29 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: fardriverBLEApp.Apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- res/drawable/motorc.ico
+- gif
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '26'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '0'
+  assemblies/assemblies.blob: '0'
+  assemblies/assemblies.manifest: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '250'
+  versionName: 2.5.0
