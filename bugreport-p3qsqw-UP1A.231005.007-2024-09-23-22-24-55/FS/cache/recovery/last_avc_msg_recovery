@@ -1,0 +1,21 @@
+audit(1580565538.543:11): auid=4294967295 ses=4294967295 lsm=selinux res=1
+audit(1580565538.543:11): arch=c00000b7 syscall=64 success=yes exit=1498935 a0=6 a1=7d213f9000 a2=16df37 a3=ffffffffffffffff items=0 ppid=0 pid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="init" exe="/system/bin/init" subj=u:r:kernel:s0 key=(null)
+audit(1580565538.543:11): proctitle=2F73797374656D2F62696E2F696E69740073656C696E75785F7365747570
+audit(1580565538.603:12): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295 enabled=1 old-enabled=1 lsm=selinux res=1
+audit(1580565538.603:12): arch=c00000b7 syscall=64 success=yes exit=1 a0=5 a1=7fc7ccf5a0 a2=1 a3=14 items=0 ppid=0 pid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="init" exe="/system/bin/init" subj=u:r:kernel:s0 key=(null)
+audit(1580565538.603:12): proctitle=2F73797374656D2F62696E2F696E69740073656C696E75785F7365747570
+avc:  denied  { set } for property=ro.boottime.init.mount.efs pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.efs pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.efs pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
+avc:  denied  { set } for property=ro.boottime.init.mount.cache pid=476 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:boottime_prop:s0 tclass=property_service permissive=0
