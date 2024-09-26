@@ -1,0 +1,15 @@
+Linux commands:
+To scan:
+-sudo bluetoothctl
+-power on
+-scan on (lists devices)
+-scan off
+-Quit
+Can also do: pair {ID}, trust {ID}, connect {ID}
+To connect:
+-sudo gatttool -b C0:01:E7:C6:00:05 -t random -I    <-- this worked
+-connect
+Or 
+-sudo gatttool -b C0:01:E7:C6:00:05 -t public -I
+-connect
+Replace C0:01:E7:C6:00:05 with the address found from the scan
