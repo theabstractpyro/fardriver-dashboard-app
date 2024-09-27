@@ -1,0 +1,28 @@
+from pico when connecting to app:
+>>> 
+Sensor name Pico 28:CD:C1:0E:2A:3B
+Advertising started...
+Connected: conn_handle=64
+Unhandled event: event=27, data=(64, 6, 0, 500, 0)
+Unhandled event: event=27, data=(64, 36, 0, 500, 0)
+
+64 is like the phone connection ID (conn_handle)
+
+Event 27 (in hexadecimal, 0x1B) in MicroPython's BLE API 
+corresponds to GATTS Read Request 
+(i.e., the central is requesting to read a characteristic value). 
+
+data = (64, 6, 0, 500, 0) represents:
+
+64: The connection handle (indicating which connection is making the request).
+6: The attribute handle being read (i.e., the specific characteristic).
+0: Offset in the attribute value (used for long reads).
+500: Length of the data being read.
+0: Status of the operation.
+
+6 = 0x06
+36 = 0x24
+
+from char-desc.txt (from terminal command)
+handle: 0x0006, uuid: 00002803-0000-1000-8000-00805f9b34fb
+handle: 0x0024, uuid: 00002a50-0000-1000-8000-00805f9b34fb
